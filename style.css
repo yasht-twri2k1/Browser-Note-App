@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212534;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+.save {
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 4rem;
+    right: 1rem;
+}
+
+.note {
+    background-color: #212534;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+}
+
+.note .tools {
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+    display: flex;
+    border-radius: 4px;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+}
+
+.note .main {
+    background-color: #191c29;
+    color:#fff;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: cursive;
+    overflow: hidden;
+    height:450px;
+    width: 100%;
+}
+
+.note textarea {
+    background-color: #191c29;
+    border-radius: 4px;
+    outline: none;
+    font-family: cursive;
+    font-size: 1.2rem;
+    color:aqua;
+    border: none;
+    height: 450px;
+    width: 100%;
+}
+
+.note .hidden {
+    display: none;
+}
