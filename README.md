@@ -6,6 +6,8 @@
 
 #Important Note Regrading this Application:
 
+# Do refresh to download..
+
 #Previous saved note will download first.
 
 #This project is still has work to complete it..
